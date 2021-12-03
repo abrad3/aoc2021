@@ -11,18 +11,16 @@ for i in range(0, len(ls)):
     # down
     if direction == 'd':
         dist = int(ls[i][5:])
-        depth+=1
+        depth+=dist
     # up
     elif direction == 'u':
         dist = int(ls[i][3:])
-        depth-=1
+        depth-=dist
     # forward
     elif direction == 'f':
         dist = int(ls[i][8:])
-        pos+=1
+        pos+=dist
     else: 
-        print(direction)
-        print(direction=='d')
         print("oh no! What kind of direction are you going?!")
 print("depth is: "+str(depth))
 print("horizontal position is: "+str(pos))
