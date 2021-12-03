@@ -13,6 +13,8 @@ for i in range(0, len(ls[0])):
     counter=0
     for j in range(0, len(ls)):
             counter+=int(ls[j][i])
+    # if our counter has a value of over half the number of rows
+    # then "1" must be the most common bit value
     if counter >= len(ls)//2: bgamma+="1"
     else: bgamma+="0"
 
