@@ -1,3 +1,0 @@
-= Advent of Code 2021
-My solutions for the Advent of Code, written in Python3 :)
-Find the puzzles https://adventofcode.com/2021[here]
